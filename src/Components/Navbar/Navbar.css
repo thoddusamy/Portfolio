@@ -1,0 +1,97 @@
+.navbar__container {
+    background-color: #505051;
+    padding: 20px;
+    height: 100%;
+    max-width: 100px;
+    border-top-right-radius: 43px;
+    border-bottom-right-radius: 43px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.navbar__container>.brand__logo>a>img {
+    width: 59px;
+    height: 59px;
+    margin: 30px 0 0 0;
+}
+
+.navbar__container>.navbar__links>.navbar__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__container>.navbar__links>.navbar__items>li {
+    list-style-type: none;
+    transition: 0.3s ease-in-out;
+    text-transform: capitalize;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.navbar__container>.navbar__links>.navbar__items>li:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar__container>.navbar__links>.navbar__items>li>a {
+    text-decoration: none;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.navbar__container>.navbar__links>.navbar__items>li>a:active {
+    color: #ffe500;
+    font-weight: bold;
+}
+
+.navbar__container>.navbar__links>.navbar__items>li .active {
+    font-weight: bold;
+    color: #ffe500;
+}
+
+.navbar__toggleIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #505051;
+    cursor: pointer;
+    position: fixed;
+}
+
+.navbar__toggleIcon img {
+    width: 28px;
+    height: 28px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .navbar__container {
+        margin: 10px 0 0 10px;
+        width: 50px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .navbar__container>.brand__logo {
+        display: none;
+    }
+
+    .navbar__container>.navbar__links>.navbar__items>li {
+        display: block;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .navbar__container>.navbar__links>.navbar__items>li>a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}

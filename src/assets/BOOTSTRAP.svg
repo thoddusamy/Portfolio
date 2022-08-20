@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="156" viewBox="0 0 156 156">
+  <defs>
+    <filter id="Rectangle_9" x="0" y="0" width="156" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.596" y1="-0.038" x2="4.153" y2="3.505" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9013fe"/>
+      <stop offset="1" stop-color="#6610f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.095" y1="-0.174" x2="0.701" y2="0.606" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f1e5fc"/>
+    </linearGradient>
+  </defs>
+  <g id="BOOTSTRAP" transform="translate(-929 -235)">
+    <g transform="matrix(1, 0, 0, 1, 929, 235)" filter="url(#Rectangle_9)">
+      <path id="Rectangle_9-2" data-name="Rectangle 9" d="M0,0H120a18,18,0,0,1,18,18V138a0,0,0,0,1,0,0H18A18,18,0,0,1,0,120V0A0,0,0,0,1,0,0Z" transform="translate(9 6)" fill="#4f4f50"/>
+    </g>
+    <text id="Bootstrap-2" data-name="Bootstrap" transform="translate(957 362)" fill="#f1e5fc" font-size="20" font-family="Rajdhani-Medium, Rajdhani" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">BOOTSTRAP</tspan></text>
+    <g id="bootstrap-original" transform="translate(959.707 244.387)">
+      <path id="Path_21" data-name="Path 21" d="M11.3,24.232a9.2,9.2,0,0,1,9-9.619H74.3a9.2,9.2,0,0,1,9,9.619c-.167,4.807.05,11.035,1.617,16.112,1.572,5.094,4.223,8.312,8.566,8.727v4.69c-4.342.414-6.993,3.633-8.566,8.726-1.567,5.077-1.785,11.3-1.617,16.112a9.2,9.2,0,0,1-9,9.619H20.294a9.2,9.2,0,0,1-9-9.619c.167-4.807-.05-11.035-1.618-16.112C8.11,57.4,5.451,54.176,1.109,53.761v-4.69c4.342-.413,7-3.633,8.572-8.726,1.568-5.077,1.785-11.3,1.618-16.112Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+      <path id="Path_22" data-name="Path 22" d="M59.795,75.373c8.533,0,13.674-4.178,13.674-11.069,0-5.209-3.669-8.98-9.116-9.577V54.51A8.747,8.747,0,0,0,71.5,45.992c0-5.914-4.669-9.767-11.784-9.767H43.7V75.373ZM49.928,41.19h8.283c4.5,0,7.059,2.008,7.059,5.643,0,3.88-2.974,6.05-8.366,6.05H49.928Zm0,29.218V57.522h8.227c5.892,0,8.95,2.17,8.95,6.4s-2.974,6.484-8.588,6.484Z" transform="translate(-10.217 -4.123)" stroke="#fff" stroke-width="0.246" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

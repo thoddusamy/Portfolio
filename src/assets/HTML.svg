@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="156" viewBox="0 0 156 156">
+  <defs>
+    <filter id="Rectangle_4" x="0" y="0" width="156" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="HTML" transform="translate(-425 -235)">
+    <g transform="matrix(1, 0, 0, 1, 425, 235)" filter="url(#Rectangle_4)">
+      <path id="Rectangle_4-2" data-name="Rectangle 4" d="M0,0H120a18,18,0,0,1,18,18V138a0,0,0,0,1,0,0H18A18,18,0,0,1,0,120V0A0,0,0,0,1,0,0Z" transform="translate(9 6)" fill="#4f4f50"/>
+    </g>
+    <g id="html5-original" transform="translate(461.517 257.339)">
+      <path id="Path_29" data-name="Path 29" d="M14.939,67.909,9.032,1.661h64.9L68.021,67.9,41.444,75.267Z" fill="#e44d26"/>
+      <path id="Path_30" data-name="Path 30" d="M64,73.394l21.476-5.954,5.053-56.6H64Z" transform="translate(-22.517 -3.758)" fill="#f16529"/>
+      <path id="Path_31" data-name="Path 31" d="M49.863,41.044H39.111l-.743-8.321H49.863V24.6H29.489l.195,2.18,2,22.391H49.863Zm0,21.1-.036.01-9.049-2.444L40.2,53.232H32.044L33.182,65.99l16.644,4.62.037-.01Z" transform="translate(-8.38 -9.396)" fill="#ebebeb"/>
+      <path id="Path_32" data-name="Path 32" d="M63.952,41.044v8.125h10l-.943,10.537-9.062,2.446v8.453L80.609,65.99l.122-1.373,1.909-21.391.2-2.182H63.952Zm0-16.445v8.125H83.578l.163-1.825.371-4.12.194-2.18Z" transform="translate(-22.497 -9.396)" fill="#fff"/>
+    </g>
+    <text id="HTML5" transform="translate(475 362)" fill="#e44d26" font-size="20" font-family="Rajdhani-Medium, Rajdhani" font-weight="500" letter-spacing="0.05em"><tspan x="0" y="0">HTML5</tspan></text>
+  </g>
+</svg>

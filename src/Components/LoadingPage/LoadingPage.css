@@ -1,0 +1,105 @@
+.loadpage__container {
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #313132, #2a2a2b, #232325, #1c1d1e, #161618);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.loadpage__container img {
+    width: 75px;
+    height: 75px;
+    animation: spin 3s linear infinite;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.loadpage__container h1 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: #ffe500;
+    letter-spacing: 2px;
+}
+
+.loadpage__container h1 span {
+    display: inline-block;
+    margin-left: 10px;
+    animation: zooming 2s ease-in-out infinite;
+    -webkit-animation: zooming 2s ease-in-out infinite;
+    -moz-animation: zooming 2s ease-in-out infinite;
+}
+
+.loadpage__container h1 span:nth-child(2) {
+    animation-delay: .1s;
+}
+
+.loadpage__container h1 span:nth-child(3) {
+    animation-delay: .2s;
+}
+
+.loadpage__container h1 span:nth-child(4) {
+    animation-delay: .3s;
+}
+
+.loadpage__container h1 span:nth-child(5) {
+    animation-delay: .4s;
+}
+
+.loadpage__container h1 span:nth-child(6) {
+    animation-delay: .5s;
+}
+
+.loadpage__container h1 span:nth-child(7) {
+    animation-delay: .6s;
+}
+
+.loadpage__container h1 span:nth-child(8) {
+    animation-delay: .7s;
+}
+
+.loadpage__container h1 span:nth-child(9) {
+    animation-delay: .8s;
+}
+
+
+
+@keyframes zooming {
+    50% {
+        opacity: 0;
+        transform: scale(0.7) translateY(5px);
+    }
+}
+
+@-webkit-keyframes zooming {
+    50% {
+        opacity: 0;
+        transform: scale(0.7) translateY(5px);
+    }
+}
+
+@-moz-keyframes zooming {
+    50% {
+        opacity: 0;
+        transform: scale(0.7) translateY(5px);
+    }
+}

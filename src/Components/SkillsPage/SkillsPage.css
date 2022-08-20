@@ -1,0 +1,85 @@
+.skillpage__container {
+    padding: 50px 0 50px 100px;
+}
+
+.skillpage__container>.what_i_know_title>h1 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 40px;
+    color: #ffe500;
+    padding: 0 0 0 80px;
+}
+
+.skillpage__container>.technologies {
+    padding: 30px 0 0 140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+}
+
+.skillpage__container>.others {
+    padding: 30px 130px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5rem;
+}
+
+.skillpage__container>.technologies>.tech__title,
+.skillpage__container>.others>.other__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.skillpage__container>.technologies>.tech__title>.tech_line1,
+.skillpage__container>.others>.other__title>.other_line1 {
+    width: 2px;
+    height: 74px;
+    background-color: #ffe500;
+}
+
+.skillpage__container>.technologies>.tech__title>.tech_line2,
+.skillpage__container>.others>.other__title>.other_line2 {
+    width: 2px;
+    height: 74px;
+    background-color: #ffe500;
+}
+
+.skillpage__container>.technologies>.tech__title>.tech_text {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffe500;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.skillpage__container>.others>.other__title>.other_text {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffe500;
+    writing-mode: vertical-rl;
+}
+
+.skillpage__container>.technologies>.tech__skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-column-gap: 3.5rem;
+    grid-row-gap: 2rem;
+}
+
+.skillpage__container>.others>.other__skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 3.5rem;
+    grid-row-gap: 2rem;
+}
+
+.skillpage__container>.technologies>.tech__skills>.tech_logo>img,
+.skillpage__container>.others>.other__skills>.other_logo>img {
+    width: 100px;
+    height: 100px;
+}
