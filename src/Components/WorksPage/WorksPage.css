@@ -114,8 +114,8 @@
 
     .workspage__container>.projects_box {
         display: grid;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         grid-template-columns: auto;
     }
 }

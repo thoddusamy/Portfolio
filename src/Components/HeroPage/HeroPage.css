@@ -195,10 +195,12 @@
     }
 
     .heropage__container>.heropage__leftside>.leftside__top>h1 {
+        text-align: center;
         font-size: calc(1rem + 1vw);
     }
 
     .heropage__container>.heropage__leftside>.leftside__top>h4 {
+        text-align: center;
         padding: 20px 0 10px 0;
         font-size: calc(2rem + 1vw);
     }
@@ -209,7 +211,7 @@
     }
 
     .heropage__container>.heropage__leftside>.leftside__bottom>h1 {
-        font-size: calc(3rem + 1vw);
+        font-size: calc(4rem + 1vw);
         letter-spacing: 0px;
     }
 
