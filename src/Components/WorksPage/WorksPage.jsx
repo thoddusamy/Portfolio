@@ -55,7 +55,7 @@ const WorksPage = () => {
                 {
                     projects.map((proj) => {
                         return (
-                            <div className='project' data-aos="fade-up-left">
+                            <div className='project' data-aos="flip-left">
                                 <img src={proj.proj_img} alt="project_image" />
                                 <div className="proj_desc">
                                     <h1>{proj.proj_title}</h1>

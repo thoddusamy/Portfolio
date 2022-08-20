@@ -75,7 +75,7 @@ const ContactPage = () => {
                             <input type="email" name='sender_email' placeholder='your email id' required />
                         </div>
                         <div className="footer">
-                            <textarea name="sender_message" id="" cols="88" rows="8" placeholder='Your meassage'></textarea>
+                            <textarea name="sender_message" placeholder='Your meassage'></textarea>
                         </div>
                         <button type="submit" value="Send">Send Message</button>
                     </form>

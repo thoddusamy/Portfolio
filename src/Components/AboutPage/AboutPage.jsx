@@ -8,10 +8,6 @@ import SchoolIcon2 from '../../assets/school_icon2.svg'
 import OfficeBagIcon from '../../assets/officeBag_icon.svg'
 
 const AboutPage = () => {
-    const style = {
-        height: 400,
-        width: 400
-    }
 
     const qualifications = [
         {
@@ -40,9 +36,9 @@ const AboutPage = () => {
             </div>
             <div className='aboutme__content'>
                 <div className='aboutme__anime'>
-                    <Lottie animationData={DeveloperYoga} loop={true} style={style} />
+                    <Lottie className='anime' animationData={DeveloperYoga} loop={true} />
                 </div>
-                <div className='aboutme__text' data-aos="fade-left">
+                <div className='aboutme__text' data-aos="fade-up">
                     Hi, I'm Thoddusamy and I'm a Front-end & Back-end developer
                     based in India. I have a keen interest in web applications,
                     animations, UI effects (and occasionally designing). I am

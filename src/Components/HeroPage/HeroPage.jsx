@@ -19,8 +19,8 @@ const HeroPage = () => {
                 <div className='leftside__bottom'>
                     <h1 className='animate__animated animate__rubberBand'>Thoddusamy.</h1>
                     <p data-aos="fade-up">
-                        I'm a passionate web developer. I love coding <br />
-                        and developing a dynamic web applications, <br />
+                        I'm a passionate web developer. I love coding
+                        and developing a dynamic web applications,
                         user interface and more...
                     </p>
                     <div className='hero__btns'>
