@@ -1,5 +1,5 @@
 .loadpage__container {
-    min-height: 90vh;
+    min-height: 100vh;
     background-image: linear-gradient(to right bottom, #313132, #2a2a2b, #232325, #1c1d1e, #161618);
     background-repeat: no-repeat;
     display: flex;
