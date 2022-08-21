@@ -181,13 +181,13 @@
     display: block;
 }
 
-@media (min-width:320px) and (max-width: 768px) {
+@media (min-width:320px) and (max-width: 540px) {
     .heropage__container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0 25px 0 0;
+        margin: 0 20px 0 0;
     }
 
     .heropage__container>.heropage__leftside {
@@ -211,13 +211,13 @@
     }
 
     .heropage__container>.heropage__leftside>.leftside__bottom>h1 {
-        font-size: calc(4rem + 1vw);
+        font-size: calc(3rem + 1vw);
         letter-spacing: 0px;
     }
 
     .heropage__container>.heropage__leftside>.leftside__bottom>p {
         font-size: calc(1rem + 1vw);
-        max-width: 80%;
+        width: 80%;
         margin-right: 0;
         text-align: center;
         word-spacing: 0;
@@ -251,6 +251,102 @@
         width: 300px;
         height: 360px;
         margin: auto;
+    }
+
+    .heropage__container>.heropage__rightside>.social_icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 0px;
+    }
+
+    .heropage__container>.heropage__rightside>.social_icons>a {
+        position: relative;
+        margin: 20px 0 0 0;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .heropage__container>.heropage__rightside>.social_icons>.line {
+        display: none;
+    }
+
+    .heropage__container>.heropage__rightside>.social_icons>a:hover>span {
+        display: none;
+    }
+}
+
+@media (min-width:541px) and (max-width: 768px) {
+    .heropage__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px 0 0;
+    }
+
+    .heropage__container>.heropage__leftside {
+        padding: 80px 0 0 20px;
+    }
+
+    .heropage__container>.heropage__leftside>.leftside__top>h1 {
+        text-align: center;
+        font-size: calc(1rem + 1vw);
+    }
+
+    .heropage__container>.heropage__leftside>.leftside__top>h4 {
+        text-align: center;
+        padding: 20px 0 10px 0;
+        font-size: calc(2rem + 1vw);
+    }
+
+    .heropage__container>.heropage__leftside>.leftside__bottom {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heropage__container>.heropage__leftside>.leftside__bottom>h1 {
+        font-size: calc(3rem + 1vw);
+        letter-spacing: 0px;
+    }
+
+    .heropage__container>.heropage__leftside>.leftside__bottom>p {
+        font-size: calc(0.8rem + 1vw);
+        width: 80%;
+        margin-right: 0;
+        text-align: center;
+        word-spacing: 0;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .heropage__container>.heropage__leftside>.leftside__bottom>.hero__btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+
+    .heropage__container>.heropage__leftside>.leftside__bottom>.hero__btns>.downloadCV_btn {
+        margin-right: 0px;
+    }
+
+    .heropage__container>.heropage__rightside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        padding: 20px 0 0 0;
+    }
+
+    .heropage__container>.heropage__rightside>.hero__image>img {
+        width: 300px;
+        height: 400px;
+        margin: 0 20px 0 0;
     }
 
     .heropage__container>.heropage__rightside>.social_icons {

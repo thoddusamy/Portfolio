@@ -84,7 +84,7 @@
 }
 
 
-@media (min-width: 320px) and (max-width:768px) {
+@media (min-width: 320px) and (max-width:540px) {
     .aboutpage__container {
         padding: 50px 0 50px 0;
     }
@@ -119,7 +119,7 @@
         font-family: 'Overlock', cursive;
         font-size: 18px;
         font-weight: bold;
-        width: 600px;
+        max-width: 80%;
         letter-spacing: 1.5px;
         line-height: 35px;
     }
@@ -182,4 +182,112 @@
         letter-spacing: .5px;
     }
 
+}
+
+@media (min-width:541px) and (max-width: 768px) {
+    .aboutpage__container {
+        padding: 50px 0 50px 0;
+    }
+
+    .aboutpage__container>.aboutme_title>h1 {
+        text-align: start;
+        font-size: calc(2.5rem + 1vw);
+        color: #ffe500;
+        padding: 0 0 0 50px;
+    }
+
+    .aboutpage__container>.aboutme__content {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .aboutpage__container>.aboutme__content>.aboutme__anime {
+        margin-left: 0;
+    }
+
+    .aboutpage__container>.aboutme__content>.aboutme__anime>.anime {
+        width: 400px;
+        height: 400px;
+    }
+
+    .aboutpage__container>.aboutme__content>.aboutme__text {
+        font-family: 'Overlock', cursive;
+        font-size: 18px;
+        font-weight: bold;
+        width: 80% !important;
+        letter-spacing: 1.5px;
+        line-height: 35px;
+    }
+
+    .aboutpage__container>.aboutme__content>.aboutme__text {
+        font-size: calc(1rem + 1vw);
+        font-weight: normal;
+        width: 280px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .aboutpage__container>.qualifi__experience {
+        padding: 40px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .aboutpage__container>.qualifi__experience>.aca_qualifi>h1,
+    .aboutpage__container>.qualifi__experience>.job_exp>h1 {
+        text-align: center;
+        font-size: calc(2rem + 1vw);
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+
+    .aboutpage__container>.qualifi__experience>.aca_qualifi>h1>span,
+    .aboutpage__container>.qualifi__experience>.job_exp>h1>span {
+        color: #ffe500;
+    }
+
+    .aboutpage__container>.qualifi__experience>.aca_qualifi>.qualification img,
+    .aboutpage__container>.qualifi__experience>.job_exp>.Job_experience img {
+        display: none;
+    }
+
+    .aboutpage__container>.qualifi__experience>.aca_qualifi>.qualification>.qualifi_text>h1,
+    .aboutpage__container>.qualifi__experience>.job_exp>.Job_experience>.job_desc>.job_text>h1 {
+        text-align: start;
+        font-size: calc(1rem + 1vw);
+        width: 300px;
+        margin-bottom: 5px;
+    }
+
+    .aboutpage__container>.qualifi__experience>.job_exp>.Job_experience>.job_desc>.job_text>h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .aboutpage__container>.qualifi__experience>.aca_qualifi>.qualification>.qualifi_text>h4,
+    .aboutpage__container>.qualifi__experience>.job_exp>.Job_experience>.job_desc>.job_text>h4 {
+        text-align: start;
+        font-size: calc(0.8rem + 1vw);
+        margin-bottom: 20px;
+    }
+
+    .aboutpage__container>.qualifi__experience>.job_exp>.Job_experience>.job_desc>.job_text>h4 {
+        width: 480px;
+        margin: 10px auto;
+    }
+
+    .aboutpage__container>.qualifi__experience>.job_exp>.Job_experience>.job_desc>p {
+        width: 70%;
+        margin: 10px auto;
+        line-height: 28px;
+        letter-spacing: .5px;
+    }
 }

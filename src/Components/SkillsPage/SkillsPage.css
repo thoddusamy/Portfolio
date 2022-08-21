@@ -84,7 +84,7 @@
     height: 100px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 540px) {
     .skillpage__container {
         padding: 0px 0 50px 0;
     }
@@ -156,6 +156,89 @@
     .skillpage__container>.others>.other__skills {
         display: grid;
         grid-template-columns: auto auto;
+        grid-column-gap: 3.5rem;
+        grid-row-gap: 2rem;
+    }
+
+    .skillpage__container>.technologies>.tech__skills>.tech_logo>img,
+    .skillpage__container>.others>.other__skills>.other_logo>img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width:541px) and (max-width: 768px) {
+    .skillpage__container {
+        padding: 0px 0 50px 0;
+    }
+
+    .skillpage__container>.what_i_know_title>h1 {
+        text-align: start;
+        font-size: calc(2.5rem + 1vw);
+        padding: 0 0 0 50px;
+    }
+
+    .skillpage__container>.technologies {
+        padding: 30px 0 0 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .skillpage__container>.others {
+        padding: 30px 10px 0 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .skillpage__container>.technologies>.tech__title,
+    .skillpage__container>.others>.other__title {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .skillpage__container>.technologies>.tech__title>.tech_line1,
+    .skillpage__container>.others>.other__title>.other_line1 {
+        width: 42px;
+        height: 2px;
+    }
+
+    .skillpage__container>.technologies>.tech__title>.tech_line2,
+    .skillpage__container>.others>.other__title>.other_line2 {
+        width: 42px;
+        height: 2px;
+    }
+
+    .skillpage__container>.technologies>.tech__title>.tech_text {
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: #ffe500;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+    }
+
+    .skillpage__container>.others>.other__title>.other_text {
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: #ffe500;
+        writing-mode: horizontal-tb;
+    }
+
+    .skillpage__container>.technologies>.tech__skills {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 3.5rem;
+        grid-row-gap: 2rem;
+    }
+
+    .skillpage__container>.others>.other__skills {
+        display: grid;
+        grid-template-columns: auto auto auto;
         grid-column-gap: 3.5rem;
         grid-row-gap: 2rem;
     }
