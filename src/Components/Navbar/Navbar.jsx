@@ -17,7 +17,7 @@ const Navbar = () => {
                     </div>) :
                     (<div className="navbar__container">
                         <div className="brand__logo">
-                            <a href="/"><img src={BrandLogo} alt="brandlogo" /></a>
+                            <Link to='home' spy={true} smooth={true} duration={1000}><img src={BrandLogo} alt="brandlogo" /></Link>
                         </div>
                         <div className="navbar__links">
                             <ul className='navbar__items'>

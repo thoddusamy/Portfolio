@@ -25,7 +25,7 @@ const HeroPage = () => {
                     </p>
                     <div className='hero__btns'>
                         <Link activeClass='active' spy={true} smooth={true} duration={1000} to="about" className='aboutme_btn'>About Me</Link>
-                        <a href='https://drive.google.com/file/d/1UZit3O1myT1CvMTIHtXHsUs2vQ3ECC4C/view?usp=sharing' className='downloadCV_btn' target={'_blank'}>Download CV</a>
+                        <a href='https://drive.google.com/file/d/1JLp4Is6E2TYRzZz7gKw2h524BVUWGLvP/view?usp=sharing' className='downloadCV_btn' target={'_blank'}>Download CV</a>
                     </div>
                 </div>
             </div>

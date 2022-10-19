@@ -38,7 +38,6 @@
 .workspage__container>.projects_box>.project img {
     width: inherit;
     height: inherit;
-    object-fit: cover;
     transition: .4s all ease-in-out 0s;
 }
 
@@ -56,7 +55,7 @@
 }
 
 .workspage__container>.projects_box>.project .proj_desc {
-    font-family: 'Nova Flat', cursive;
+    font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
