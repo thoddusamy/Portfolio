@@ -9,7 +9,6 @@ import MONGODB from '../../assets/MONGODB.svg'
 import NODEJS from '../../assets/NODEJS.svg'
 import MYSQL from '../../assets/MYSQL.svg'
 import EXPRESSJS from '../../assets/EXPRESSJS.svg'
-import AWS from '../../assets/AWS.svg'
 import NPM from '../../assets/NPM.svg'
 import POSTMAN from '../../assets/POSTMAN.svg'
 import HEROKU from '../../assets/HEROKU.svg'
@@ -54,10 +53,6 @@ const SkillsPage = () => {
         {
             icon: EXPRESSJS,
             alt: "expressjs_icon"
-        },
-        {
-            icon: AWS,
-            alt: "aws_icon"
         },
     ]
 
