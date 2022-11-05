@@ -47,10 +47,10 @@ const HeroPage = () => {
                         <span>LinkedIn</span>
                         <img src={LinkedIn} alt='linkedin' />
                     </a>
-                    <a href='https://twitter.com/ArunThoddusamy?t=rIhcc8hcTf5qXfObMlbjHg&s=08' target={'_blank'}>
+                    {/* <a href='https://twitter.com/ArunThoddusamy?t=rIhcc8hcTf5qXfObMlbjHg&s=08' target={'_blank'}>
                         <span>Twitter</span>
                         <img src={Twitter} alt='twitter' />
-                    </a>
+                    </a> */}
                     <div className="line"></div>
                 </div>
             </div>

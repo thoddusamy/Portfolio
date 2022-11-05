@@ -74,28 +74,54 @@
     height: 35px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
-    .navbar__container {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        width: 70px;
-        height: 180px;
-        border-radius: 5px;
-    }
+.navbar__container_mobile {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    width: 70px;
+    height: 180px;
+    border-radius: 5px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-transform: capitalize;
+    background-color: #505051;
+}
 
-    .navbar__container>.brand__logo {
+.navbar__container_mobile>.navbar__links_mobile>.navbar__items_mobile>li {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 12px 0 0 12px;
+}
+
+.navbar__container_mobile>.navbar__links_mobile {
+    margin-top: 5px;
+}
+
+.navbar__container_mobile>.navbar__links_mobile>.navbar__items_mobile>li>a {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.navbar__container_mobile>.navbar__links_mobile>.navbar__items_mobile>li>a:active {
+    color: #ffe500;
+    font-weight: bold;
+}
+
+.navbar__container_mobile>.navbar__links_mobile>.navbar__items_mobile>li .active {
+    font-weight: bold;
+    color: #ffe500;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .navbar__container {
         display: none;
     }
 
-    .navbar__container>.navbar__links>.navbar__items>li {
-        display: block;
-        margin-top: 10px;
-        cursor: pointer;
+    .navbar__container_mobile {
+        display: flex;
     }
 
-    .navbar__container>.navbar__links>.navbar__items>li>a {
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
 }

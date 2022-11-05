@@ -28,16 +28,16 @@ const ContactPage = () => {
     };
 
     const socialIcons = [
-        {
-            icon: InstagramIcon,
-            alt: "instagram_icon",
-            link: "https://www.instagram.com/_._arun_depp_._/"
-        },
-        {
-            icon: FacebookIcon,
-            alt: "facebook_icon",
-            link: "https://www.facebook.com/arun.thoddusamy.3"
-        },
+        // {
+        //     icon: InstagramIcon,
+        //     alt: "instagram_icon",
+        //     link: "https://www.instagram.com/_._arun_depp_._/"
+        // },
+        // {
+        //     icon: FacebookIcon,
+        //     alt: "facebook_icon",
+        //     link: "https://www.facebook.com/arun.thoddusamy.3"
+        // },
         {
             icon: GithubIcon,
             alt: "github_icon",
@@ -48,11 +48,11 @@ const ContactPage = () => {
             alt: "linkedin_icon",
             link: "https://www.linkedin.com/in/thoddusamy-g-449b26180"
         },
-        {
-            icon: TwitterIcon,
-            alt: "twitter_icon",
-            link: "https://twitter.com/ArunThoddusamy?t=rIhcc8hcTf5qXfObMlbjHg&s=08"
-        }
+        // {
+        //     icon: TwitterIcon,
+        //     alt: "twitter_icon",
+        //     link: "https://twitter.com/ArunThoddusamy?t=rIhcc8hcTf5qXfObMlbjHg&s=08"
+        // }
     ]
     return (
         <div className='contactpage__container' id='contact'>

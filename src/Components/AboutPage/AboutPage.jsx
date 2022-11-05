@@ -19,13 +19,13 @@ const AboutPage = () => {
         {
             icon: SchoolIcon1,
             title: "Higher Secondary School",
-            university: "The Gugai Higher Secondary School (2014)",
+            university: "The Gugai Higher Secondary School (2015-2016)",
             alt: "school_icon"
         },
         {
             icon: SchoolIcon2,
             title: "Secondary School Leaving Certificate",
-            university: "The Gugai Higher Secondary School (2012)",
+            university: "The Gugai Higher Secondary School (2013-2014)",
             alt: "school_icon"
         },
     ]
@@ -39,7 +39,7 @@ const AboutPage = () => {
                     <Lottie className='anime' animationData={DeveloperYoga} loop={true} />
                 </div>
                 <div className='aboutme__text' data-aos="fade-up">
-                    Hi, I'm Thoddusamy and I'm a Front-end & Back-end developer
+                    Hi, I'm Thoddusamy and I'm a full stack developer
                     based in India. I have a keen interest in web applications,
                     animations, UI effects (and occasionally designing). I am
                     interested in developing dynamic applications and Curiosity to
@@ -50,7 +50,7 @@ const AboutPage = () => {
             </div>
             <div className='qualifi__experience'>
                 <div className='aca_qualifi'>
-                    <h1 data-aos="zoom-in-down">Academic <span>Qualification</span></h1>
+                    <h1 data-aos="zoom-in-down">Academic <span>Qualifications</span></h1>
                     {
                         qualifications.map((qualifi) => {
                             return (

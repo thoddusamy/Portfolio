@@ -45,7 +45,7 @@ const WorksPage = () => {
     return (
         <div className='workspage__container' id='works'>
             <div className='workspage_title'>
-                <h1>Works</h1>
+                <h1>Projects</h1>
             </div>
             <div className='projects_box'>
                 {

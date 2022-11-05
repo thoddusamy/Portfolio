@@ -87,7 +87,7 @@ const SkillsPage = () => {
             <div className="technologies">
                 <div className="tech__title" data-aos="zoom-in-right">
                     <div className="tech_line1"></div>
-                    <div className="tech_text">Technologies</div>
+                    <div className="tech_text">Languages</div>
                     <div className="tech_line2"></div>
                 </div>
                 <div className="tech__skills">
@@ -117,7 +117,7 @@ const SkillsPage = () => {
                 </div>
                 <div className="other__title" data-aos="zoom-in-left">
                     <div className="other_line1"></div>
-                    <div className="other_text">Others</div>
+                    <div className="other_text">Other</div>
                     <div className="other_line2"></div>
                 </div>
             </div>
